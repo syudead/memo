@@ -23,5 +23,8 @@ module.exports = {
       hash: true,
       template: './src/index.html'
     }),
-  ]
+  ],
+  devServer: {
+    port: 9000,
+  }
 }
